@@ -17,12 +17,14 @@ class BusesController < ApplicationController
         end
     
         def update
-    
+            @bus.update(bus_params)
+            render json: @bus
         end
     
         def destroy
-    
-    end
+            @bus.destroy
+            render json: @bus
+        end
     
     private
     
