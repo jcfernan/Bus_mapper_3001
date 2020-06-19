@@ -23,7 +23,7 @@ class BusesController < ApplicationController
     
         def destroy
             @bus.destroy
-            render json: @bus
+            redirect_to action: "index"
         end
     
     private
