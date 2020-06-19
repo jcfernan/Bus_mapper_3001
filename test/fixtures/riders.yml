@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  commute_time: 1
+  bus: one
+  bus_pass: false
+
+two:
+  name: MyString
+  commute_time: 1
+  bus: two
+  bus_pass: false
