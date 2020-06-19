@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  tag: MyString
+  current_route: MyString
+  driver: MyString
+  capacity: 1
+
+two:
+  tag: MyString
+  current_route: MyString
+  driver: MyString
+  capacity: 1
